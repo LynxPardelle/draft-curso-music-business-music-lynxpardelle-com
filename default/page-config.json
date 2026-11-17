@@ -7,12 +7,64 @@
   ],
   "modalRootIds": [],
   "seo": {
-    "title": "Music Business para artistas independientes | Lynx Pardelle",
-    "description": "Organiza la parte profesional de tu proyecto musical. Define a quién quieres llegar y entiende cómo se conectan la industria, la gestión y la distribución digital.",
+    "title": "Curso de Music Business para artistas independientes | Lynx Pardelle",
+    "description": "Organiza un lanzamiento musical en cuatro meses. Aprende sobre industria, derechos de autor, gestión, distribución y difusión en redes con Lynx Pardelle.",
     "canonical": "https://curso-music-business.music.lynxpardelle.com/",
     "robots": "index,follow",
     "openGraph": {
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/curso-music-business-r2-1073cef3f3071d14.webp",
+      "title": "Curso de Music Business para artistas independientes | Lynx Pardelle",
+      "description": "Organiza un lanzamiento musical en cuatro meses. Aprende sobre industria, derechos de autor, gestión, distribución y difusión en redes con Lynx Pardelle.",
+      "url": "https://curso-music-business.music.lynxpardelle.com/",
+      "imageAlt": "Vinilo, contactos fotográficos y notas de planificación de un lanzamiento."
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Curso de Music Business para artistas independientes | Lynx Pardelle",
+      "description": "Organiza un lanzamiento musical en cuatro meses. Aprende sobre industria, derechos de autor, gestión, distribución y difusión en redes con Lynx Pardelle.",
       "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/curso-music-business-r2-1073cef3f3071d14.webp"
     }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://curso-music-business.music.lynxpardelle.com/#webpage",
+        "name": "Music Business para artistas independientes",
+        "description": "Organiza un lanzamiento musical en cuatro meses. Aprende sobre industria, derechos de autor, gestión, distribución y difusión en redes con Lynx Pardelle.",
+        "url": "https://curso-music-business.music.lynxpardelle.com/",
+        "inLanguage": "es",
+        "isPartOf": {
+          "@type": "CollectionPage",
+          "name": "Cursos",
+          "url": "https://music.lynxpardelle.com/formacion/cursos"
+        },
+        "mainEntity": {
+          "@id": "https://curso-music-business.music.lynxpardelle.com/#contenido-de-la-oferta"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        "@id": "https://curso-music-business.music.lynxpardelle.com/#contenido-de-la-oferta",
+        "name": "Music Business para artistas independientes",
+        "description": "Organiza un lanzamiento musical en cuatro meses. Aprende sobre industria, derechos de autor, gestión, distribución y difusión en redes con Lynx Pardelle.",
+        "url": "https://curso-music-business.music.lynxpardelle.com/",
+        "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/curso-music-business-r2-1073cef3f3071d14.webp",
+        "provider": {
+          "@id": "https://lynxpardelle.com/#person"
+        },
+        "inLanguage": "es",
+        "timeRequired": "P4M",
+        "offers": {
+          "@type": "Offer",
+          "name": "Pago único",
+          "url": "https://curso-music-business.music.lynxpardelle.com/#precios",
+          "price": 14000,
+          "priceCurrency": "MXN"
+        }
+      }
+    ]
   }
 }
