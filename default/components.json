@@ -140,201 +140,406 @@
       }
     },
     {
-      "id": "page-heading",
+      "id": "promo-contado-label",
       "type": "text",
       "config": {
-        "id": "page-heading",
-        "text": "Music Business para artistas independientes",
-        "tag": "h1",
+        "id": "promo-contado-label",
+        "text": "Pago único",
+        "tag": "h3",
         "styles": {
           "margin": "0",
-          "fontFamily": "\"Instrument Serif\", Georgia, serif",
-          "fontWeight": "400",
-          "lineHeight": "1",
-          "letterSpacing": "-.04em",
-          "textWrap": "balance",
-          "fontSize": "clamp(38px, 6vw, 82px)",
-          "color": "#f7f3ea",
-          "marginBlock": "9px 16px",
-          "maxWidth": "17ch"
+          "fontSize": "clamp(17px, 2.3vw, 23px)",
+          "fontWeight": "720"
         }
       }
     },
     {
-      "id": "offer-duration",
+      "id": "promo-contado-amount",
       "type": "text",
       "config": {
-        "id": "offer-duration",
-        "text": "Duración · 4 meses",
+        "id": "promo-contado-amount",
+        "text": "$14,000 MXN",
         "tag": "p",
         "styles": {
           "margin": "0",
-          "fontWeight": "720",
-          "marginTop": "14px"
+          "fontSize": "clamp(30px, 5.4vw, 60px)",
+          "lineHeight": "1.05",
+          "fontWeight": "800",
+          "marginBlock": "8px 12px"
         }
       }
     },
     {
-      "id": "hero-action",
-      "type": "link",
-      "config": {
-        "text": "Consultar por WhatsApp",
-        "href": "https://wa.me/525522699563?text=Hola%2C%20Lynx.%20Quisiera%20informaci%C3%B3n%20sobre%20el%20curso%20Music%20Business%20para%20artistas%20independientes.",
-        "styles": {
-          "color": "#141217",
-          "textUnderlineOffset": "4px",
-          "minHeight": "44px",
-          "display": "inline-flex",
-          "alignItems": "center",
-          "fontWeight": "750",
-          "padding": "8px 18px",
-          "background": "#f6c17d",
-          "textDecoration": "none",
-          "boxSizing": "border-box",
-          "borderRadius": "3px"
-        }
-      }
-    },
-    {
-      "id": "hero-details",
-      "type": "link",
-      "config": {
-        "text": "Ver el temario",
-        "href": "#contenido-de-la-oferta",
-        "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
-          "minHeight": "44px",
-          "display": "inline-flex",
-          "alignItems": "center",
-          "fontWeight": "640"
-        }
-      }
-    },
-    {
-      "id": "hero-label",
+      "id": "promo-contado-detail",
       "type": "text",
       "config": {
-        "id": "hero-label",
-        "text": "Curso",
+        "id": "promo-contado-detail",
+        "text": "Un pago por el curso completo. Ahorras $14,000 MXN frente al precio regular.",
         "tag": "p",
         "styles": {
           "margin": "0",
-          "fontWeight": "760",
-          "textTransform": "uppercase",
-          "letterSpacing": ".13em",
-          "fontSize": "12px",
-          "color": "#f6c17d"
+          "maxWidth": "42ch"
         }
       }
     },
     {
-      "id": "hero-description",
+      "id": "promo-contado",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "promo-contado-label",
+          "promo-contado-amount",
+          "promo-contado-detail"
+        ],
+        "styles": {
+          "background": "#c5da91",
+          "color": "#232b17",
+          "minWidth": "0",
+          "border": "1px solid #465c23",
+          "padding": "clamp(18px, 3.1vw, 33px)"
+        }
+      }
+    },
+    {
+      "id": "promo-mensual-label",
       "type": "text",
       "config": {
-        "id": "hero-description",
-        "text": "Organiza la parte profesional de tu proyecto musical. Define a quién quieres llegar y entiende cómo se conectan la industria, la gestión y la distribución digital.",
+        "id": "promo-mensual-label",
+        "text": "Mensualidad",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.3vw, 23px)",
+          "fontWeight": "720"
+        }
+      }
+    },
+    {
+      "id": "promo-mensual-amount",
+      "type": "text",
+      "config": {
+        "id": "promo-mensual-amount",
+        "text": "$3,500 MXN",
         "tag": "p",
         "styles": {
           "margin": "0",
-          "maxWidth": "61ch",
-          "fontSize": "clamp(16px, 2vw, 21px)",
-          "lineHeight": "1.58"
+          "fontSize": "clamp(30px, 5.4vw, 60px)",
+          "lineHeight": "1.05",
+          "fontWeight": "800",
+          "marginBlock": "8px 12px"
         }
       }
     },
     {
-      "id": "hero-actions",
+      "id": "promo-mensual-detail",
+      "type": "text",
+      "config": {
+        "id": "promo-mensual-detail",
+        "text": "4 pagos mensuales. Total del curso $14,000 MXN.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "42ch"
+        }
+      }
+    },
+    {
+      "id": "promo-mensual",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "promo-mensual-label",
+          "promo-mensual-amount",
+          "promo-mensual-detail"
+        ],
+        "styles": {
+          "background": "transparent",
+          "color": "#232b17",
+          "minWidth": "0",
+          "border": "1px solid #465c23",
+          "padding": "clamp(18px, 3.1vw, 33px)"
+        }
+      }
+    },
+    {
+      "id": "price-heading",
+      "type": "text",
+      "config": {
+        "id": "price-heading",
+        "text": "Promoción de inscripción",
+        "tag": "h2",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(29px, 4.2vw, 53px)",
+          "lineHeight": "1.1",
+          "fontWeight": "730"
+        }
+      }
+    },
+    {
+      "id": "price-intro",
+      "type": "text",
+      "config": {
+        "id": "price-intro",
+        "text": "Elige cómo cubrir el curso completo. Los importes están en pesos mexicanos.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "marginBlock": "10px 21px",
+          "maxWidth": "61ch"
+        }
+      }
+    },
+    {
+      "id": "price-reference-label",
+      "type": "text",
+      "config": {
+        "id": "price-reference-label",
+        "text": "Precio regular del curso",
+        "tag": "span",
+        "styles": {
+          "margin": "0"
+        }
+      }
+    },
+    {
+      "id": "price-reference-amount",
+      "type": "text",
+      "config": {
+        "id": "price-reference-amount",
+        "text": "$28,000 MXN",
+        "tag": "span",
+        "styles": {
+          "margin": "0",
+          "fontWeight": "700",
+          "textDecoration": "line-through"
+        }
+      }
+    },
+    {
+      "id": "price-reference",
       "type": "container",
       "config": {
         "tag": "div",
         "components": [
-          "hero-action",
-          "hero-details"
+          "price-reference-label",
+          "price-reference-amount"
         ],
         "styles": {
           "display": "flex",
-          "alignItems": "center",
           "flexWrap": "wrap",
-          "gap": "7px 18px",
-          "marginTop": "23px"
+          "gap": "4px 9px",
+          "marginBlockEnd": "14px"
         }
       }
     },
     {
-      "id": "hero-copy",
+      "id": "price-list",
       "type": "container",
       "config": {
         "tag": "div",
         "components": [
-          "hero-label",
-          "page-heading",
-          "hero-description",
-          "offer-duration",
-          "hero-actions"
+          "promo-contado",
+          "promo-mensual"
         ],
         "styles": {
-          "minWidth": "0",
-          "position": "relative",
-          "zIndex": "1"
+          "display": "grid",
+          "gap": "12px",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 240px), 1fr))"
         }
       }
     },
     {
-      "id": "hero-art",
-      "type": "media",
+      "id": "price-benefit-label-0",
+      "type": "text",
       "config": {
-        "tag": "image",
-        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-curso-music-business.webp",
-        "alt": "Un disco de vinilo, audífonos y una libreta para planear un lanzamiento.",
-        "loading": "eager",
-        "fetchPriority": "high",
-        "decoding": "async",
+        "id": "price-benefit-label-0",
+        "text": "Inscripción con un amigo",
+        "tag": "h3",
         "styles": {
-          "display": "block",
-          "width": "100%",
-          "aspectRatio": "6 / 5",
-          "objectFit": "cover",
-          "border": "1px solid #6b5546",
+          "margin": "0",
+          "fontSize": "1.08rem",
+          "fontWeight": "760"
+        }
+      }
+    },
+    {
+      "id": "price-benefit-detail-0",
+      "type": "text",
+      "config": {
+        "id": "price-benefit-detail-0",
+        "text": "Si se inscriben juntos, el total por persona es $14,000 MXN aunque elijan mensualidades. Consulta el calendario para ese plan.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "marginBlockStart": "5px",
+          "maxWidth": "55ch"
+        }
+      }
+    },
+    {
+      "id": "price-benefit-0",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "price-benefit-label-0",
+          "price-benefit-detail-0"
+        ],
+        "styles": {
+          "paddingBlock": "12px",
+          "borderBlockEnd": "1px solid #465c23"
+        }
+      }
+    },
+    {
+      "id": "price-benefit-label-1",
+      "type": "text",
+      "config": {
+        "id": "price-benefit-label-1",
+        "text": "Descuento en masterclasses durante el curso",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "1.08rem",
+          "fontWeight": "760"
+        }
+      }
+    },
+    {
+      "id": "price-benefit-detail-1",
+      "type": "text",
+      "config": {
+        "id": "price-benefit-detail-1",
+        "text": "Obtén el 25 % de descuento. Si pagas el curso de contado, el descuento es del 50 %.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "marginBlockStart": "5px",
+          "maxWidth": "55ch"
+        }
+      }
+    },
+    {
+      "id": "price-benefit-1",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "price-benefit-label-1",
+          "price-benefit-detail-1"
+        ],
+        "styles": {
+          "paddingBlock": "12px",
+          "borderBlockEnd": "1px solid #465c23"
+        }
+      }
+    },
+    {
+      "id": "price-benefits",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "price-benefit-0",
+          "price-benefit-1"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 250px), 1fr))",
+          "gap": "0 20px",
+          "marginBlockStart": "9px"
+        }
+      }
+    },
+    {
+      "id": "price-contact",
+      "type": "link",
+      "config": {
+        "text": "Consultar inscripción",
+        "href": "https://wa.me/525522699563?text=Hola%2C%20Lynx.%20Quisiera%20informaci%C3%B3n%20sobre%20el%20curso%20Music%20Business%20para%20artistas%20independientes.",
+        "styles": {
+          "color": "#232b17",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "background": "#c5da91",
+          "padding": "9px 17px",
+          "fontWeight": "760",
+          "textDecoration": "none",
           "boxSizing": "border-box"
         }
       }
     },
     {
-      "id": "hero-frame",
+      "id": "price-next-detail",
+      "type": "text",
+      "config": {
+        "id": "price-next-detail",
+        "text": "Pregunta por la próxima fecha de inicio.",
+        "tag": "p",
+        "styles": {
+          "margin": "0"
+        }
+      }
+    },
+    {
+      "id": "price-next",
       "type": "container",
       "config": {
         "tag": "div",
         "components": [
-          "hero-copy",
-          "hero-art"
+          "price-contact",
+          "price-next-detail"
+        ],
+        "styles": {
+          "display": "flex",
+          "flexWrap": "wrap",
+          "alignItems": "center",
+          "gap": "9px 16px",
+          "marginBlockStart": "19px"
+        }
+      }
+    },
+    {
+      "id": "pricing-frame",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "price-heading",
+          "price-intro",
+          "price-reference",
+          "price-list",
+          "price-benefits",
+          "price-next"
         ],
         "styles": {
           "boxSizing": "border-box",
           "width": "min(100%, 1200px)",
           "marginInline": "auto",
           "paddingInline": "clamp(18px, 5vw, 66px)",
-          "paddingBlock": "clamp(40px, 7vw, 86px)",
-          "display": "grid",
-          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
-          "gap": "clamp(17px, 4.5vw, 58px)",
-          "alignItems": "center",
-          "minHeight": "min(620px, 70svh)"
+          "paddingBlock": "clamp(40px, 7vw, 86px)"
         }
       }
     },
     {
-      "id": "hero",
+      "id": "pricing",
       "type": "container",
       "config": {
         "tag": "section",
         "components": [
-          "hero-frame"
+          "pricing-frame"
         ],
         "styles": {
-          "background": "#272027",
-          "color": "#f7f3ea"
-        }
+          "background": "#eef1e2",
+          "color": "#232b17",
+          "borderBlockStart": "1px solid #465c23"
+        },
+        "id": "precios"
       }
     },
     {
@@ -342,7 +547,7 @@
       "type": "text",
       "config": {
         "id": "topic-heading-0",
-        "text": "Proyecto, público y comunidad",
+        "text": "Proyecto, audiencia y comunidad",
         "tag": "h3",
         "styles": {
           "margin": "0",
@@ -357,7 +562,7 @@
       "type": "text",
       "config": {
         "id": "topic-detail-0",
-        "text": "Define el proyecto y su audiencia. Explora cómo presentar tu música, participar en eventos y construir relaciones profesionales.",
+        "text": "Define la propuesta musical y el público al que quieres llegar. Explora eventos, redes de contactos y formas de presentar el proyecto.",
         "tag": "p",
         "styles": {
           "margin": "0",
@@ -377,7 +582,7 @@
         ],
         "styles": {
           "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3"
+          "borderTop": "1px solid #465c23"
         }
       }
     },
@@ -386,7 +591,7 @@
       "type": "text",
       "config": {
         "id": "topic-heading-1",
-        "text": "Cómo funciona la industria musical",
+        "text": "La industria musical",
         "tag": "h3",
         "styles": {
           "margin": "0",
@@ -401,7 +606,7 @@
       "type": "text",
       "config": {
         "id": "topic-detail-1",
-        "text": "Revisa cómo ha cambiado el sector y qué papel cumplen sus empresas, equipos y profesionales.",
+        "text": "Recorre la evolución del sector, su organización actual y el papel de las empresas y profesionales a lo largo de un lanzamiento.",
         "tag": "p",
         "styles": {
           "margin": "0",
@@ -421,7 +626,7 @@
         ],
         "styles": {
           "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3"
+          "borderTop": "1px solid #465c23"
         }
       }
     },
@@ -445,7 +650,7 @@
       "type": "text",
       "config": {
         "id": "topic-detail-2",
-        "text": "Revisa conceptos básicos de derechos de autor, trabaja tu imagen y contempla qué recursos y colaboradores requiere el proyecto.",
+        "text": "Revisa conceptos básicos de derechos de autor, imagen artística, gestión del proyecto y búsqueda de recursos y colaboradores.",
         "tag": "p",
         "styles": {
           "margin": "0",
@@ -465,7 +670,7 @@
         ],
         "styles": {
           "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3"
+          "borderTop": "1px solid #465c23"
         }
       }
     },
@@ -474,7 +679,7 @@
       "type": "text",
       "config": {
         "id": "topic-heading-3",
-        "text": "Distribución y difusión digital",
+        "text": "Distribución, imagen y visibilidad digital",
         "tag": "h3",
         "styles": {
           "margin": "0",
@@ -489,7 +694,7 @@
       "type": "text",
       "config": {
         "id": "topic-detail-3",
-        "text": "Distingue los servicios de distribución de los canales de promoción. Planea cómo mantener el contacto con tu público en redes.",
+        "text": "Distingue los servicios de distribución de la promoción. Trabaja cómo sostener tu imagen y la conversación con tu público en redes y qué acciones de visibilidad puedes evaluar.",
         "tag": "p",
         "styles": {
           "margin": "0",
@@ -509,7 +714,7 @@
         ],
         "styles": {
           "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3"
+          "borderTop": "1px solid #465c23"
         }
       }
     },
@@ -581,16 +786,33 @@
       }
     },
     {
+      "id": "topic-grid",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "topic-0",
+          "topic-1",
+          "topic-2",
+          "topic-3"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
+          "gap": "clamp(17px, 4.5vw, 58px)",
+          "rowGap": "0",
+          "columnGap": "27px"
+        }
+      }
+    },
+    {
       "id": "topic-list",
       "type": "container",
       "config": {
         "tag": "div",
         "components": [
           "topic-title",
-          "topic-0",
-          "topic-1",
-          "topic-2",
-          "topic-3"
+          "topic-grid"
         ],
         "styles": {
           "minWidth": "0"
@@ -620,7 +842,7 @@
       "type": "text",
       "config": {
         "id": "activity-copy",
-        "text": "Prepara el plan de un lanzamiento con una audiencia definida, recursos disponibles, una opción de distribución y acciones de difusión antes y después del estreno.",
+        "text": "Toma un lanzamiento o proyecto concreto como referencia. Podrás ordenar por separado lo que necesitas para publicarlo, presentarlo y difundirlo.",
         "tag": "p",
         "styles": {
           "margin": "0",
@@ -641,25 +863,24 @@
           "activity-copy"
         ],
         "styles": {
-          "background": "#ece2d1",
+          "background": "#c5da91",
+          "color": "#232b17",
           "padding": "clamp(19px, 3vw, 32px)",
           "alignSelf": "start"
         }
       }
     },
     {
-      "id": "course-detail",
+      "id": "activity-band",
       "type": "container",
       "config": {
         "tag": "div",
         "components": [
-          "topic-list",
           "activity"
         ],
         "styles": {
-          "display": "grid",
-          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
-          "gap": "clamp(17px, 4.5vw, 58px)"
+          "maxWidth": "69ch",
+          "marginBlockStart": "24px"
         }
       }
     },
@@ -670,7 +891,8 @@
         "tag": "div",
         "components": [
           "outcome",
-          "course-detail"
+          "topic-list",
+          "activity-band"
         ],
         "styles": {
           "boxSizing": "border-box",
@@ -690,226 +912,262 @@
           "topic-frame"
         ],
         "styles": {
-          "color": "#141217",
-          "background": "#f7f3ea"
+          "color": "#232b17",
+          "background": "#eef1e2"
         },
         "id": "contenido-de-la-oferta",
         "tabindex": -1
       }
     },
     {
-      "id": "price-label-0",
-      "type": "text",
+      "id": "context-art",
+      "type": "media",
       "config": {
-        "id": "price-label-0",
-        "text": "Pago de contado",
-        "tag": "p",
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-curso-music-business.webp",
+        "alt": "Un disco de vinilo, audífonos y una libreta para planear un lanzamiento.",
+        "loading": "lazy",
+        "decoding": "async",
         "styles": {
-          "margin": "0",
-          "fontWeight": "700"
+          "display": "block",
+          "width": "100%",
+          "aspectRatio": "16 / 9",
+          "objectFit": "cover",
+          "maxHeight": "480px"
         }
       }
     },
     {
-      "id": "price-value-0",
-      "type": "text",
-      "config": {
-        "id": "price-value-0",
-        "text": "$14,000 MXN",
-        "tag": "p",
-        "styles": {
-          "margin": "0",
-          "fontSize": "clamp(19px, 3vw, 30px)",
-          "fontWeight": "760"
-        }
-      }
-    },
-    {
-      "id": "price-0",
+      "id": "offer-context",
       "type": "container",
       "config": {
         "tag": "div",
         "components": [
-          "price-label-0",
-          "price-value-0"
+          "context-art"
         ],
         "styles": {
-          "padding": "12px 0",
-          "borderTop": "1px solid #d7cec3"
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "paddingBlock": "clamp(22px, 5vw, 52px)"
         }
       }
     },
     {
-      "id": "price-label-1",
+      "id": "hero-label",
       "type": "text",
       "config": {
-        "id": "price-label-1",
-        "text": "Mensualidad (4 pagos)",
+        "id": "hero-label",
+        "text": "Curso",
         "tag": "p",
         "styles": {
           "margin": "0",
-          "fontWeight": "700"
+          "fontWeight": "760",
+          "textTransform": "uppercase",
+          "letterSpacing": ".13em",
+          "fontSize": "12px",
+          "color": "#465c23"
         }
       }
     },
     {
-      "id": "price-value-1",
+      "id": "page-heading",
       "type": "text",
       "config": {
-        "id": "price-value-1",
-        "text": "$3,500 MXN",
-        "tag": "p",
+        "id": "page-heading",
+        "text": "Music Business para artistas independientes",
+        "tag": "h1",
         "styles": {
           "margin": "0",
-          "fontSize": "clamp(19px, 3vw, 30px)",
-          "fontWeight": "760"
-        }
-      }
-    },
-    {
-      "id": "price-1",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "components": [
-          "price-label-1",
-          "price-value-1"
-        ],
-        "styles": {
-          "padding": "12px 0",
-          "borderTop": "1px solid #d7cec3"
-        }
-      }
-    },
-    {
-      "id": "price-label-2",
-      "type": "text",
-      "config": {
-        "id": "price-label-2",
-        "text": "Total en mensualidades",
-        "tag": "p",
-        "styles": {
-          "margin": "0",
-          "fontWeight": "700"
-        }
-      }
-    },
-    {
-      "id": "price-value-2",
-      "type": "text",
-      "config": {
-        "id": "price-value-2",
-        "text": "$14,000 MXN",
-        "tag": "p",
-        "styles": {
-          "margin": "0",
-          "fontSize": "clamp(19px, 3vw, 30px)",
-          "fontWeight": "760"
-        }
-      }
-    },
-    {
-      "id": "price-2",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "components": [
-          "price-label-2",
-          "price-value-2"
-        ],
-        "styles": {
-          "padding": "12px 0",
-          "borderTop": "1px solid #d7cec3"
-        }
-      }
-    },
-    {
-      "id": "price-label-3",
-      "type": "text",
-      "config": {
-        "id": "price-label-3",
-        "text": "Precio regular",
-        "tag": "p",
-        "styles": {
-          "margin": "0",
-          "fontWeight": "700"
-        }
-      }
-    },
-    {
-      "id": "price-value-3",
-      "type": "text",
-      "config": {
-        "id": "price-value-3",
-        "text": "$28,000 MXN",
-        "tag": "p",
-        "styles": {
-          "margin": "0",
-          "fontSize": "clamp(19px, 3vw, 30px)",
-          "fontWeight": "760"
-        }
-      }
-    },
-    {
-      "id": "price-3",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "components": [
-          "price-label-3",
-          "price-value-3"
-        ],
-        "styles": {
-          "padding": "12px 0",
-          "borderTop": "1px solid #d7cec3"
-        }
-      }
-    },
-    {
-      "id": "price-heading",
-      "type": "text",
-      "config": {
-        "id": "price-heading",
-        "text": "Precios",
-        "tag": "h2",
-        "styles": {
-          "margin": "0",
-          "fontFamily": "\"Instrument Serif\", Georgia, serif",
-          "fontWeight": "400",
-          "lineHeight": "1",
-          "letterSpacing": "-.04em",
+          "fontFamily": "\"Young Serif\", Georgia, serif",
+          "fontWeight": "680",
+          "lineHeight": ".99",
+          "letterSpacing": "-.035em",
           "textWrap": "balance",
-          "fontSize": "clamp(29px, 4vw, 51px)",
-          "marginBottom": "19px"
+          "fontSize": "clamp(33px, 5.4vw, 74px)",
+          "overflowWrap": "break-word",
+          "marginBlock": "10px 15px",
+          "maxWidth": "20ch"
         }
       }
     },
     {
-      "id": "price-list",
+      "id": "hero-description",
+      "type": "text",
+      "config": {
+        "id": "hero-description",
+        "text": "Organiza la parte profesional de tu proyecto musical. Define a quién quieres llegar y entiende cómo se conectan la industria, la gestión y la distribución digital.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "52ch",
+          "fontSize": "clamp(16px, 2vw, 21px)",
+          "lineHeight": "1.58"
+        }
+      }
+    },
+    {
+      "id": "offer-duration",
+      "type": "text",
+      "config": {
+        "id": "offer-duration",
+        "text": "Duración · 4 meses",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "fontWeight": "700",
+          "marginBlockStart": "13px"
+        }
+      }
+    },
+    {
+      "id": "hero-action",
+      "type": "link",
+      "config": {
+        "text": "Consultar por WhatsApp",
+        "href": "https://wa.me/525522699563?text=Hola%2C%20Lynx.%20Quisiera%20informaci%C3%B3n%20sobre%20el%20curso%20Music%20Business%20para%20artistas%20independientes.",
+        "styles": {
+          "color": "#232b17",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "750",
+          "padding": "8px 18px",
+          "background": "#c5da91",
+          "textDecoration": "none",
+          "boxSizing": "border-box",
+          "borderRadius": "3px"
+        }
+      }
+    },
+    {
+      "id": "hero-details",
+      "type": "link",
+      "config": {
+        "text": "Ver el temario",
+        "href": "#contenido-de-la-oferta",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        }
+      }
+    },
+    {
+      "id": "hero-prices",
+      "type": "link",
+      "config": {
+        "text": "Ver la promoción",
+        "href": "#precios",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        }
+      }
+    },
+    {
+      "id": "hero-actions",
       "type": "container",
       "config": {
         "tag": "div",
         "components": [
-          "price-0",
-          "price-1",
-          "price-2",
-          "price-3"
+          "hero-action",
+          "hero-details",
+          "hero-prices"
+        ],
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "5px 17px",
+          "marginBlockStart": "20px"
+        }
+      }
+    },
+    {
+      "id": "hero-heading",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-label",
+          "page-heading"
+        ],
+        "styles": {
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "hero-art",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/curso-music-business-r2-1073cef3f3071d14.webp",
+        "alt": "Vinilo, contactos fotográficos y notas de planificación de un lanzamiento.",
+        "loading": "eager",
+        "fetchPriority": "high",
+        "decoding": "async",
+        "styles": {
+          "display": "block",
+          "width": "100%",
+          "objectFit": "cover",
+          "aspectRatio": "16 / 10"
+        }
+      }
+    },
+    {
+      "id": "hero-copy",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-description",
+          "offer-duration",
+          "hero-actions"
+        ],
+        "styles": {
+          "alignSelf": "center",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "hero-journal",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-art",
+          "hero-copy"
         ],
         "styles": {
           "display": "grid",
-          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 210px), 1fr))",
-          "gap": "0 24px"
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
+          "gap": "clamp(17px, 4.5vw, 58px)",
+          "borderTop": "1px solid #465c23",
+          "paddingTop": "15px",
+          "marginTop": "14px"
         }
       }
     },
     {
-      "id": "pricing-frame",
+      "id": "hero-frame",
       "type": "container",
       "config": {
         "tag": "div",
         "components": [
-          "price-heading",
-          "price-list"
+          "hero-heading",
+          "hero-journal"
         ],
         "styles": {
           "boxSizing": "border-box",
@@ -921,18 +1179,18 @@
       }
     },
     {
-      "id": "pricing",
+      "id": "hero",
       "type": "container",
       "config": {
         "tag": "section",
         "components": [
-          "pricing-frame"
+          "hero-frame"
         ],
         "styles": {
-          "background": "#ece2d1",
-          "color": "#141217"
-        },
-        "id": "precios"
+          "color": "#232b17",
+          "background": "#eef1e2",
+          "overflow": "hidden"
+        }
       }
     },
     {
@@ -1036,7 +1294,7 @@
       "type": "link",
       "config": {
         "text": "Servicios",
-        "href": "https://music.lynxpardelle.com/formacion/servicios",
+        "href": "https://music.lynxpardelle.com/servicios",
         "styles": {
           "color": "inherit",
           "textUnderlineOffset": "4px",
@@ -1074,7 +1332,7 @@
         "text": "LYNX PARDELLE",
         "href": "https://music.lynxpardelle.com/formacion",
         "styles": {
-          "color": "#f6c17d",
+          "color": "#c5da91",
           "textUnderlineOffset": "4px",
           "minHeight": "44px",
           "display": "inline-flex",
@@ -1152,7 +1410,7 @@
         "text": "Proyecto musical ↗",
         "href": "https://music.lynxpardelle.com/",
         "styles": {
-          "color": "#f6c17d",
+          "color": "#c5da91",
           "textUnderlineOffset": "4px",
           "minHeight": "44px",
           "display": "inline-flex",
@@ -1210,6 +1468,7 @@
         "components": [
           "hero",
           "topic-section",
+          "offer-context",
           "pricing",
           "bio",
           "return-section"
@@ -1229,7 +1488,7 @@
           "site-footer"
         ],
         "styles": {
-          "background": "#141217",
+          "background": "#222818",
           "color": "#f7f3ea",
           "fontFamily": "\"Instrument Sans\", system-ui, sans-serif",
           "lineHeight": "1.6",
